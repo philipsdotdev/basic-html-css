@@ -1,6 +1,35 @@
-.address {
+.horizontal-spacing {
+    height: 40px;
+}
+
+
+.weather-forecast {
     margin: 0;
+    width: 40%;
     padding: .3rem;
     background-color: #eee;
-    font: 1 rem 'fira sans', sans-serif;
+    font: 1rem 'fira sans', sans-serif;
+    /** font-size: 1rem; **/
+}
+
+.weather-forecast > h1 {
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 2rem;
+}
+
+.daily-forecast{
+    padding: .1rem;
+    margin: .5rem;
+    background: right/contain content-box border-box no-repeat url('media/rain.svg') white;
+    background-size: 40% 40%;
+    background-position: right;
+   }
+
+.daily-forecast > h2,
+.daily-forecast > h3,
+.daily-forecast > p {
+    border: none;
+    margin: 2rem;
+    font-size: .5 rem;
 }
