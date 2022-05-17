@@ -68,3 +68,33 @@
 .fancy-border em {
     background: none;
 }
+
+.div-border {
+    border: 2px solid #2196F3;
+    padding: .8rem;
+}
+
+.div-border p {
+    border: 1px solid #f00;
+    padding: 0.5rem;
+}
+
+.ordered-list {
+    border-left: 5px solid #2196F3;
+    background-color: #DDFFFF;
+    padding: 2px 0rem 2px 2px;
+}
+
+.ordered-list ol {
+    /* border-left: 2px solid #f00; */
+    /* margin: 2rem; */
+    font: 1.2rem bold sans-serif;
+    line-height: 1.7rem;
+}
+
+.list-div {
+    border-left: 2px solid #f00;
+    margin: 2rem;
+    padding: 0.05rem 0rem 0.05rem 0rem;
+    /* padding: 2rem 0rem 2rem 0rem; */
+}
